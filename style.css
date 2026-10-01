@@ -8,6 +8,7 @@
   --Grey: hsl(228, 12%, 48%);
   --Cream: hsl(30, 38%, 92%);
   --White: hsl(0, 0%, 100%);
+  --Blue-Link: hsl(228, 45%, 44%);
 
   --font-body: 'Montserrat', sans-serif;
   --font-display: 'Fraunces', serif;
@@ -27,7 +28,7 @@ body {
   place-items: center;
   grid-template-rows: 1fr auto 1fr;
   min-height: 100vh;
-  padding: 1rem;
+  padding: clamp(1rem, 3vw, 2rem);
   background: var(--Cream);
   color: var(--Grey);
   font-family: var(--font-body);
@@ -103,14 +104,14 @@ main h1 {
 }
 
 article a {
-  text-decoration: none;
-  background: var(--Green-500);
-  color: var(--White);
-  padding: 0.9rem 1rem;
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.6rem;
-  display: flex;
+  padding: 0.9rem 1rem;
+  background: var(--Green-500);
+  color: var(--White);
+  text-decoration: none;
   font-family: var(--font-body);
   font-weight: 700;
   border-radius: 0.5rem;
@@ -119,12 +120,6 @@ article a {
 article a img {
   width: 1rem;
   height: 1rem;
-}
-
-article a p {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
 }
 
 article a:hover,
@@ -160,5 +155,6 @@ article a:focus {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--Blue-Link);
+  text-decoration: none;
 }
