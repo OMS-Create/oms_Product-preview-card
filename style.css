@@ -127,6 +127,20 @@ article a:focus {
   background: var(--Green-700);
 }
 
+
+.attribution {
+  grid-row: 3;
+  align-self: end;
+  font-family: var(--font-body);
+  font-size: 0.6875rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--Blue-Link);
+  text-decoration: none;
+}
+
 @media (orientation: portrait) {
   main {
     flex-direction: column;
@@ -144,17 +158,4 @@ article a:focus {
   article {
     width: 100%;
   }
-}
-
-.attribution {
-  grid-row: 3;
-  align-self: end;
-  font-family: var(--font-body);
-  font-size: 0.6875rem;
-  text-align: center;
-}
-
-.attribution a {
-  color: var(--Blue-Link);
-  text-decoration: none;
 }
