@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
 
 :root {
+  --Blue-Link: hsl(228, 45%, 44%);
   --Green-500: hsl(158, 36%, 37%);
   --Green-700: hsl(158, 42%, 18%);
 
@@ -8,7 +9,6 @@
   --Grey: hsl(228, 12%, 48%);
   --Cream: hsl(30, 38%, 92%);
   --White: hsl(0, 0%, 100%);
-  --Blue-Link: hsl(228, 45%, 44%);
 
   --font-body: 'Montserrat', sans-serif;
   --font-display: 'Fraunces', serif;
