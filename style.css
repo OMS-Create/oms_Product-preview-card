@@ -144,7 +144,7 @@ article a:focus {
 @media (orientation: portrait) {
   main {
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     max-width: clamp(18.75rem, 85vw, 21.875rem);
     min-width: 0;
   }
